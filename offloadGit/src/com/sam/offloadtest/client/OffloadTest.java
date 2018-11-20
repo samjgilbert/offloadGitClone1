@@ -1,4 +1,4 @@
-package com.sam.offloadtest.client;
+package com.sam.offloadtest.client; //cloned version
 
 import com.ait.lienzo.client.core.animation.AnimationProperties;
 import com.ait.lienzo.client.core.animation.AnimationProperty.Properties;
@@ -68,7 +68,7 @@ import java.util.List;
  * Entry point classes define <code>onModuleLoad()</code>.
  */
 public class OffloadTest implements EntryPoint {
-	private int nTrials = 17;
+	private int nTrials = 17; 
     private String IDexperimentCode = "optimal_mTurk"; //which database to check for participant codes
     private String adminID = "Asam"; //WorkerID for admin access
     private String workerId = com.google.gwt.user.client.Window.Location.getParameter("workerId");
